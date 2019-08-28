@@ -1,0 +1,34 @@
+{
+  "name": "automatic-update-pk",
+  "version": "1.0.0",
+  "description": "Detect package version and update automatically before executing npm script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiameng123/automatic-update-pk.git"
+  },
+  "keywords": [
+    "npm",
+    "es6",
+    "update",
+    "package",
+    "package-info",
+    "get-package-info",
+    "node",
+    "shell"
+  ],
+  "author": "ninja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiameng123/automatic-update-pk/issues"
+  },
+  "homepage": "https://github.com/jiameng123/automatic-update-pk#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "shelljs": "^0.8.3"
+  }
+}
